@@ -1,0 +1,30 @@
+track Creneg22_vs_Crepos22
+container multiWig
+shortLabel Creneg22_vs_Crepos22
+longLabel Creneg22_vs_Crepos22
+type bigWig
+#viewLimits 0:30
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.2
+configurable on
+autoScale on
+dragAndDrop subtracks
+
+track Creneg22
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/vassilykutyavin/H3K27ac22Cre-.bw
+shortLabel A
+longLabel A_H3K27ac_Creneg22
+parent Creneg22_vs_Crepos22
+type bigWig
+color 0,0,150
+
+track Crepos22
+bigDataUrl hhttps://de.cyverse.org/anon-files/iplant/home/vassilykutyavin/H3K27ac22Cre+.bw
+shortLabel B
+longLabel A_H3K27ac_Crepos22
+parent Creneg22_vs_Crepos22
+type bigWig
+color 200,120,0
