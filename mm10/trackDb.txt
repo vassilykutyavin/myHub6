@@ -27,4 +27,4 @@ shortLabel B
 longLabel A_H3K27ac_Crepos22
 parent Creneg22_vs_Crepos22
 type bigWig
-color 200,120,0
+color 200,160,0
