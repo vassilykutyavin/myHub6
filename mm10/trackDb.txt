@@ -22,7 +22,7 @@ type bigWig
 color 0,0,150
 
 track Crepos22
-bigDataUrl hhttps://de.cyverse.org/anon-files/iplant/home/vassilykutyavin/H3K27ac22Cre+.bw
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/vassilykutyavin/H3K27ac22Cre+.bw
 shortLabel B
 longLabel A_H3K27ac_Crepos22
 parent Creneg22_vs_Crepos22
